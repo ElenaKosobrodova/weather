@@ -1,0 +1,77 @@
+body {
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  background-size: cover;
+  background-color: black;
+}
+
+.dark-text {
+  padding-top: 20px;
+  color: navy;
+  font-family: Times New Roman;
+  font-size: 50px;
+}
+
+.weather-box {
+  border-radius: 10px;
+  position: relative;
+  margin: 10% auto;
+  width: 500px;
+  height: 300px;
+  padding: 30px;
+  display: table;
+  opacity: 0.8;
+  background-color: white;
+}
+
+.button {
+  height: 40px;
+  width: 70px;
+  border-radius: 3px;
+  color: black;
+  font-weight: 700;
+  outline: none;
+  font-size: 20px;
+  padding: 6px 15px 6px 15px;
+  margin-left: 30px;
+  cursor: pointer;
+  background: none;
+}
+
+.white-text {
+  color: white;
+  font-size: 20px;
+  font-family: Times New Roman;
+}
+
+#temp {
+  margin-left: 3rem;
+}
+
+#weather-icon {
+  font-size: 2.7rem;
+  margin: 2rem;
+}
+
+table {
+  margin: 7% 15%;
+}
+
+td,
+th {
+  padding-left: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1rem;
+}
+
+.input-group {
+  width: 75%;
+  margin: 5% 12.5%;
+}
+
+.form-control {
+  border: 1px solid black;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
