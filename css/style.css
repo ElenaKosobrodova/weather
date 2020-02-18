@@ -3,7 +3,7 @@ body {
   background-size: auto;
   background-position: center;
   background-size: cover;
-  background-color: black;
+  background-image: url("https://s3-ap-southeast-2.amazonaws.com/elena.kosobrodova.codepen/weather/local-weather/css/pictures/linh-pham-215843-unsplash.jpg");
 }
 
 .dark-text {
@@ -65,13 +65,6 @@ th {
   font-size: 1.1rem;
 }
 
-.input-group {
-  width: 75%;
-  margin: 5% 12.5%;
-}
-
-.form-control {
-  border: 1px solid black;
-  font-size: 1.1rem;
-  font-weight: 500;
+#odd {
+  background-color: rgb(233, 233, 233);
 }
